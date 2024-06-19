@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pro-server
+  profiles:
+    active: local
+  main:
+    allow-circular-references: true # 允许循环依赖，因为项目是三层架构，无法避免这个情况。
+
+
+pro:
+  info:
+    version: 1.0.0
+    base-package: org.example
